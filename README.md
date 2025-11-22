@@ -17,34 +17,42 @@ This project implements a simple client–server application that converts numer
 
 ## Functional Requirements
     1.	Convert Number to Words
-    •	Server must convert integer numbers to their word equivalents.
-    •	Client must be able to request the conversion and display the response.
+    
+        •	Server must convert integer numbers to their word equivalents.
+        •	Client must be able to request the conversion and display the response.
 
     2.	Convert Number to Dollars
-    •	Server must convert integer numbers to dollar amounts in words.
-    •	Client must be able to request the conversion and display the response.
+    
+        •	Server must convert integer numbers to dollar amounts in words.
+        •	Client must be able to request the conversion and display the response.
 
     3.	Networking
-    •	Server listens on a defined TCP port.
-    •	Client connects to the server on the same port.
+    
+        •	Server listens on a defined TCP port.
+        •	Client connects to the server on the same port.
 
     4.	Error Reporting
-    •	System must notify the user when input is invalid or the server is unreachable.
+    
+        •	System must notify the user when input is invalid or the server is unreachable.
 
 ## Non-Functional Requirements
     1.	Reliability
-    •	Server should handle invalid input gracefully.
-    •	Application must not crash on errors or network issues.
+    
+        •	Server should handle invalid input gracefully.
+        •	Application must not crash on errors or network issues.
 
     2.	Performance
-    •	Conversion requests must be processed without noticeable delay.
+    
+        •	Conversion requests must be processed without noticeable delay.
 
     3.	Maintainability
-    •	Methods like konwertujLiczbeNaSlowo() and konwertujLiczbeNaDolary() must be modular.
-    •	Clear separation between client and server logic.
+    
+        •	Methods like konwertujLiczbeNaSlowo() and konwertujLiczbeNaDolary() must be modular.
+        •	Clear separation between client and server logic.
 
     4.	Portability
-    •	Server and client must run on any system supporting Java and TCP/IP.
+    
+        •	Server and client must run on any system supporting Java and TCP/IP.
 
 # 🧩 Architecture
 
@@ -87,34 +95,42 @@ Projekt implementuje prostą aplikację klient–serwer w Javie, która konwertu
 
 ## Wymagania funkcjonalne
     1.	Konwersja liczby na słowo
-    •	Serwer musi konwertować liczby całkowite na ich zapis słowny.
-    •	Klient musi móc wysłać żądanie konwersji i wyświetlić odpowiedź.
+    
+        •	Serwer musi konwertować liczby całkowite na ich zapis słowny.
+        •	Klient musi móc wysłać żądanie konwersji i wyświetlić odpowiedź.
 
     2.	Konwersja liczby na dolary
-    •	Serwer musi konwertować liczby całkowite na kwoty dolarów w słowach.
-    •	Klient musi móc wysłać żądanie konwersji i wyświetlić odpowiedź.
+    
+        •	Serwer musi konwertować liczby całkowite na kwoty dolarów w słowach.
+        •	Klient musi móc wysłać żądanie konwersji i wyświetlić odpowiedź.
 
     3.	Komunikacja sieciowa
-    •	Serwer nasłuchuje na określonym porcie TCP.
-    •	Klient łączy się z serwerem na tym samym porcie.
+    
+        •	Serwer nasłuchuje na określonym porcie TCP.
+        •	Klient łączy się z serwerem na tym samym porcie.
 
     4.	Obsługa błędów
-    •	System musi powiadamiać użytkownika, gdy dane wejściowe są niepoprawne lub serwer jest niedostępny.
+    
+        •	System musi powiadamiać użytkownika, gdy dane wejściowe są niepoprawne lub serwer jest niedostępny.
 
 ## Wymagania niefunkcjonalne
     1.	Niezawodność
-    •	Serwer powinien prawidłowo obsługiwać niepoprawne dane wejściowe.
-    •	Aplikacja nie powinna ulegać awarii w przypadku błędów lub problemów sieciowych.
+    
+        •	Serwer powinien prawidłowo obsługiwać niepoprawne dane wejściowe.
+        •	Aplikacja nie powinna ulegać awarii w przypadku błędów lub problemów sieciowych.
 
     2.	Wydajność
-    •	Żądania konwersji muszą być przetwarzane bez zauważalnego opóźnienia.
+    
+        •	Żądania konwersji muszą być przetwarzane bez zauważalnego opóźnienia.
 
     3.	Utrzymanie
-    •	Metody takie jak konwertujLiczbeNaSlowo() i konwertujLiczbeNaDolary() muszą być modułowe.
-    •	Czysty podział logiki między klientem a serwerem.
+    
+        •	Metody takie jak konwertujLiczbeNaSlowo() i konwertujLiczbeNaDolary() muszą być modułowe.
+        •	Czysty podział logiki między klientem a serwerem.
 
     4.	Przenośność
-    •	Serwer i klient muszą działać na każdym systemie obsługującym Javę i TCP/IP.
+    
+        •	Serwer i klient muszą działać na każdym systemie obsługującym Javę i TCP/IP.
 
 # 🧩 Architecture
 
